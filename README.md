@@ -216,8 +216,23 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 <h4>Item 8: Configure IIS as Admin & Register PHP</h4>
 
+<Strong>Why do we need to register PHP?</strong>
 
+<p>We have downloaded PHP onto our machine, but it's not in a position to where it can be recognized by osTicket yet. Registering PHP on PHP Manager before installing osTicket is necessary to ensure that the correct PHP version and configuration are set up for osTicket. By registering PHP, PHP Manager can identify and manage the installed PHP version, extensions, and settings specific to osTicket's requirements. This ensures compatibility, performance, and proper functioning of osTicket within the IIS (Internet Information Services) environment, allowing the ticketing system to operate smoothly.</p>
 
+1. Navigate to search bar on Windows desktop > Type 'IIS' > Right-click to 'Run As Administrator'
+2. Double-click PHP manager > select 'Register New PHP Version'
+3. Click the three dots icon to browse > click 'PHP' folder > PHP-CGI > select 'OK'
+4. Select the VM were using within IIS > click 'Restart' (This is so the system can restart and reset with PHP now added. It is good practice to do so)
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+<h3>Step 3: Install osTicket</h3>
 
 
 
