@@ -104,6 +104,39 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br>
 
+<h3>Item 2: Install PHP Manager for IIS</h3>
+
+[LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
+
+<Strong>What is PHP Manager and why is it needed for IIS/Installing osTicket later?</strong>
+
+<p>PHP Manager is an IIS (Internet Information Services) extension for managing PHP installations on Windows servers. It is needed for installing osTicket because osTicket is written in PHP and requires a properly configured PHP environment to run.</p>
+
+1. Use the link provided: click and download PHP manager
+2. Navigate to Windows File Explorer > Downloads: it should appear there 
+3. Open and install PHP manager with all default settings. Select: ‘I Agree’
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<h3>Item 3: Download & Install Rewrite Module</h3>
+
+[LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
+
+<Strong>What is a Rewrite Module and why is it needed for osTicket?</strong>
+
+<p>osTicket requires the Rewrite Module to be installed in order to utilize URL rewriting capabilities provided by the web server. URL rewriting is a technique that allows the modification of incoming request URLs, which can be helpful for creating user-friendly and search engine optimized URLs.
+
+The Rewrite Module, typically used with IIS (Internet Information Services), enables osTicket to transform complex or dynamic URLs into more concise and meaningful ones. This enhances the usability and aesthetics of the URLs while ensuring proper navigation and linking within the osTicket system.
+
+By leveraging the Rewrite Module, osTicket can achieve URL structures that are easier to read, remember, and share. It improves the user experience, search engine visibility, and overall accessibility of osTicket's support ticketing system.</p>
+
+1. Use the link provided: click and download the Rewrite Module
+2. Navigate to Windows File Explorer > Downloads: it should appear there
+3. Open the Application > Agree to it > Install & Clos
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 
