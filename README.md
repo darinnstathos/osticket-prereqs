@@ -6,10 +6,6 @@
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -20,14 +16,22 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Windows 10</b> (21H2)
 
+<h2>Overview</h2>
+- Step 1: Create Resource Group inside Azure, Windows Virtual Machine, & Log into VM
+- Step 2: Install Prerequisites [8 Substeps]
+- Step 3: Install osTicket
+
 <h2>List of Prerequisites</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
-
+- Item 1: Install & Enable IIS in Windows with CGI
+- Item 2: Install PHP Manager for IIS
+- Item 3: Download & Install Rewrite Module
+- Item 4: Create Directory in PHP on local hard drive
+- Item 5: Download PHP 7.3.8 & Unzip Contents into C:\PHP
+- Item 6: Download & Install C++ Redistributable
+- Item 7: Install MySQL Server
+- Item 8: Configure inside of IIS: Register PHP
+ 
 <h2>Installation Steps</h2>
 
 <p>
