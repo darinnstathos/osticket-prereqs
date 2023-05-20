@@ -78,6 +78,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h3>Step 2: Install Prerequisites [8 Items]</h3>  
 
+<h4>Item 1: Install & Enable IIS in Windows with CGI</h4>
+
+<strong>What is IIS?</strong>
+
+<p>IIS (Internet Information Services) is a web server software developed by Microsoft for Windows operating systems. It allows you to host and serve websites, web applications, and other web services on your Windows-based computer. IIS provides the infrastructure and tools necessary to handle HTTP requests, manage web content, and support various web technologies, making it easier to publish and manage websites on Windows servers. We need to set up IIS because osTicket runs out of a website and thus requires extra support.</p>
 
 
 
@@ -99,11 +104,4 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
