@@ -17,6 +17,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Windows 10</b> (21H2)
 
 <h2>Overview</h2>
+
 - Step 1: Create Resource Group inside Azure, Windows Virtual Machine, & Log into VM
 - Step 2: Install Prerequisites [8 Substeps]
 - Step 3: Install osTicket
