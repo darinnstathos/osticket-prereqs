@@ -19,7 +19,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Overview</h2>
 
 - Step 1: Create Resource Group inside Azure, Windows Virtual Machine, & Log into VM
-- Step 2: Install Prerequisites [8 Substeps]
+- Step 2: Install Prerequisites [8 Items]
 - Step 3: Install osTicket
 
 <h2>List of Prerequisites</h2>
