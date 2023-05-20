@@ -80,10 +80,29 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h4>Item 1: Install & Enable IIS in Windows with CGI</h4>
 
-<strong>What is IIS?</strong>
+<strong>What is IIS (Internet Information Services)?</strong>
 
 <p>IIS (Internet Information Services) is a web server software developed by Microsoft for Windows operating systems. It allows you to host and serve websites, web applications, and other web services on your Windows-based computer. IIS provides the infrastructure and tools necessary to handle HTTP requests, manage web content, and support various web technologies, making it easier to publish and manage websites on Windows servers. We need to set up IIS because osTicket runs out of a website and thus requires extra support.</p>
 
+1. Within our Windows Virtual Machinne, right-click the 'Start Menu" (Windows icon on desktop) > select 'Run' > type 'Control' for Control Panel
+2. Select 'Programs' > Select 'Turn Windows Features On & Off' > Enable [X] Internet Information Services
+3. Expand [+] for 'World Wide Web Services' > Expand [+] for 'Application Developer' > [X] check 'CGI' 
+
+<Strong>Why do we need CGI and what is PHP?</strong>
+
+<p>This is because CGI allows us to install PHP Manager later and PHP is needed for osTicket. CGI (Common Gateway Interface) needs to be enabled on IIS (Internet Information Services) in order to install osTicket because osTicket relies on CGI scripts to process and handle certain web requests. CGI is a standard protocol that allows web servers like IIS to interact with external programs or scripts to generate dynamic content. PHP is a server-side scripting language that is widely used for web development. It is needed to run osTicket because osTicket is written in PHP and relies on PHP for its functionality. PHP allows osTicket to dynamically generate web pages, process form submissions, interact with databases, and perform various other tasks necessary for its ticketing system. It provides the underlying scripting capabilities that osTicket relies on to handle user interactions, store ticket data, and generate the appropriate responses.</p>
+
+4. We can check that everything is working correctly by typing '127.0.0.1' into the search bar on Microsoft Edge within the VM. We can see that the default Internet Information Services webpage loads. 
+
+<strong>Why type 127.0.0.1?</Strong>
+<p>Typing '127.0.0.1' allows us to access the loopback address on our local machine. The loopback address refers to the computer itself, allowing you to access the web server or any other services running on your own machine.</p>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
 
 
 
