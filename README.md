@@ -104,7 +104,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br>
 
-<h3>Item 2: Install PHP Manager for IIS</h3>
+<h4>Item 2: Install PHP Manager for IIS</h4>
 
 [LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
 
@@ -119,7 +119,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<h3>Item 3: Download & Install Rewrite Module</h3>
+<h4>Item 3: Download & Install Rewrite Module</h4>
 
 [LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
 
@@ -133,16 +133,55 @@ By leveraging the Rewrite Module, osTicket can achieve URL structures that are e
 
 1. Use the link provided: click and download the Rewrite Module
 2. Navigate to Windows File Explorer > Downloads: it should appear there
-3. Open the Application > Agree to it > Install & Clos
+3. Open the Application > Agree to it > Install & Close
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<br>
 
+<h4>Item 4: Create Directory for PHP on the local hard drive</h4>
 
+We want to create a PHP folder on the root of the C: Drive. This is because later we will download PHP and extract the contents into this folder. 
 
+1. Open 'File Explorer' > select 'My PC' > Click 'C: Drive'
+2. Right click inside of the C:Drive > 'New' > 'Folder' > name the folder 'PHP'
 
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<br> 
+
+<h4>Item 5: Download PHP 7.3.8 and Unzip Contents into C:\PHP 
+
+[LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
+ 
+ <Strong>Why is PHP needed for osTicket again?</strong>
+ 
+ <p>PHP is needed for osTicket because it is the programming language in which osTicket is built. It enables osTicket to dynamically generate web pages, process form submissions, interact with databases, and provide the necessary functionality for a support ticketing system. Without PHP, osTicket would not be able to operate and deliver its ticket management capabilities to users.</p>
+ 
+ 1. Use the link provided: click and download the PHP 7.3.8 [Leave all the files as they are, just download it straight away]
+ 
+ **Side note: If this comes up when downloading, select 'Keep' and 'Keep All'
+ 
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+ 2. Naviagte to 'Downloads' in File Explorer > Right-click: 'Extract All'
+ 3. When it wants a destination to extract the contents in, we want to unzip into C:PHP folder: Click 'Browse' > 
+ 4. This PC > C: Drive > select 'PHP folder > 'Extract"
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+ <h4>Item 6: Download & Install C++ Restributable</h4>
+ 
+ <Strong>Why do we need to install Microsoft C++ Restributable in order to use osTicket?</strong>
+ 
+<p>Microsoft C++ Redistributable software is required for installing osTicket because osTicket is built using the C++ programming language and relies on specific components provided by the Microsoft Visual C++ Redistributable packages. These packages contain essential runtime components and libraries necessary for osTicket to run smoothly and without compatibility issues. Installing the appropriate Redistributable software ensures that the required C++ dependencies are available on the system, enabling osTicket to function properly.</p>
+ 
+ 
 
 
 
