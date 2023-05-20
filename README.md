@@ -315,11 +315,11 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 <strong>What is Heidi SQL?</strong>
 <p>HeidiSQL is a user-friendly program that helps you manage and work with databases. It provides a graphical interface where you can connect to your databases, view and edit data, and perform various tasks without writing complex commands. It's a useful tool for developers and database administrators who want to interact with databases easily and efficiently. It allows us to communicate with the database we installed earlier: MySQL so that we can easily set up a database that osTicket can use.</p>
 
-3A. Download Heidi SQL using the link above > Open in 'Downloads' within File Explorer
-3B. Select 'Next' on everything > 'Install' > 'Finish'
-3C. Another window of ‘Launch Heidi’ will open: Click ‘New’ cause were going to create a new connection to Database
-3D: The username: 'root', password: 'Password1' (We created these when we downloaded mySQL server) > select 'Open'
-3F: Now we have our connection to mySQL server: > Create a new database called “osTicket”
+- Download Heidi SQL using the link above > Open in 'Downloads' within File Explorer
+- Select 'Next' on everything > 'Install' > 'Finish'
+- Another window of ‘Launch Heidi’ will open: Click ‘New’ cause were going to create a new connection to Database
+- The username: 'root', password: 'Password1' (We created these when we downloaded mySQL server) > select 'Open'
+- Now we have our connection to mySQL server: > Create a new database called “osTicket”
 
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
