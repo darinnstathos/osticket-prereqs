@@ -234,6 +234,53 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 <h3>Step 3: Install osTicket</h3>
 
+[LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
+
+<Strong>What is osTicket and why is it useful?</strong>
+osTicket is a popular open-source ticketing system that helps organizations efficiently manage customer support and inquiries. It provides a centralized platform for capturing, tracking, and resolving customer tickets, ensuring timely and effective communication. osTicket offers features such as ticket assignment, email integration, knowledge base, customizable forms, and reporting, making it useful for streamlining support processes, improving customer satisfaction, and maintaining organized customer interactions.
+
+<h4>Downloading osTicket and Setting up IIS</h4>
+
+1. Use the Download Link provided > Download osTicket 
+2. Open 'File Explorer' > Open two Windows of File Explorer. Our goal is to Extract and Copy “Upload” folder to c:\inetpub\wwwroot:
+
+- File Explorer 1: Navigate to 'Downloads' > osTicket > Double-click to unzip contents > You’ll see ‘Upload Folder’
+- File Explorer 2: My PC > C: Drive > Inetpub > wwwroot
+
+3. Drag and drop 'Upload' folder in wwwroot
+4. Rename ‘Upload’ folder to ‘osTicket’: Right-click ‘Upload’ Folder > Rename > Rename to “osTicket”
+5. Go back to IIS to now load osTicket website: search 'IIS' on Windows search bar > Right-click to 'Run as Administrator' > click 'VM-osTicket' > select 'Restart'
+6. Inside of IIS: Navigate to 'VM-osTicket' > Expand [+] Sites > Expand [+] Default Web Site > Select "osTicket" > Select “Browse *:80” on the right
+
+<p> We can see that the osTicket website has loaded! However, there are some items signaled by red X's. We're going to enable some extensions.</p>
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+<h4>Enabling IIS Extensions</h4>
+
+1. Navigate back to 'IIS' > Select "VM-osTicket" > Expand [+] 'Sites' > Expand [+] Default Web Site > Select 'osTicket' > select 'PHP Manager' 
+2. Select 'Enable or disable an extension'
+3. Enable the following extensions:
+
+- Enable: php_imap.dll
+- Enable: php_intl.dll
+- Enable: php_opcache.dll
+
+4. Go back to osTicket in browser > Refresh > notice how some of the red X’s turned green
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
+<br>
+
+
+
 
 
 
