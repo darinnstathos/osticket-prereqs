@@ -325,8 +325,52 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+4. We can now finish setting up osTicket in the browser:
 
+- Username: root, Password: 'Password1' (for example purposes)
+- Database name: 'osTicket' (This was just created in HeidiSQL)
+- Select 'Install Now"
 
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+<h4>Clean Up</h4>
+
+1. We need to delete the 'Set Up' folder in C:\inetpub\wwwroot\osTicket\setup
+
+- Navigate to 'File Explorer' > 'My PC' > C: Drive > 'inetpub' > 'wwwroot' > 'osTicket' > 'Set Up' folder > Right-click to Delete 
+
+2. Set Permissions to “Read Only" within C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+- Navigate to 'File Explorer' > 'My PC' > C: Drive > 'inetpub' > 'wwwroot' > 'osTicket' > 'Include' folder > Select 'ost-config'
+- Right-click 'ost-config' > select 'Properties'
+- select 'Security' at the top > select 'Advanced'
+- select 'Everyone' > select 'Edit'
+- Uncheck [ ] 'Full Control', 'Modify', 'Read & Execute' so that we only have 'Read' remains
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+<h4>Testing Log In</h4>
+
+There are two URL's:
+
+- Admin Login: http://localhost/osTicket/scp/login.php
+- End-User Login (where people can create tickets): http://localhost/osTicket/
+
+1. Click the Admin Login link
+2. Input the username/email & password created when signing up for osTicket earlier:
+
+- Example: username: darin_admin
+
+Congrats! We've successfully installed osTicket!
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 
