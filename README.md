@@ -119,6 +119,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
+<br>
+
 <h4>Item 3: Download & Install Rewrite Module</h4>
 
 [LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
@@ -152,7 +154,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 <br> 
 
-<h4>Item 5: Download PHP 7.3.8 and Unzip Contents into C:\PHP 
+<h4>Item 5: Download PHP 7.3.8 and Unzip Contents into C:\PHP</h4> 
 
 [LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
  
