@@ -179,11 +179,44 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
  <h4>Item 6: Download & Install C++ Restributable</h4>
  
+ [LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
+ 
  <Strong>Why do we need to install Microsoft C++ Restributable in order to use osTicket?</strong>
  
 <p>Microsoft C++ Redistributable software is required for installing osTicket because osTicket is built using the C++ programming language and relies on specific components provided by the Microsoft Visual C++ Redistributable packages. These packages contain essential runtime components and libraries necessary for osTicket to run smoothly and without compatibility issues. Installing the appropriate Redistributable software ensures that the required C++ dependencies are available on the system, enabling osTicket to function properly.</p>
  
+1. Use the link provided: click and download VC Redist
+2. Open ‘File Explorer’ > Downloads > double click to open > Agree & Install
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
+
+<h4>Item 7: Install MySQL Server</h4>
+
+ [LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
  
+ <strong>What is MySQL and why is it needed to install osTicket?</strong>
+ 
+ <p>MySQL is an open-source relational database management system (RDBMS) that is used to store and manage data. It is needed to install osTicket because osTicket requires a database to store ticket information, user data, and other related data. MySQL provides the backend storage and retrieval capabilities necessary for osTicket's ticketing system to function effectively and securely.</p>
+ 
+ 1. Use the link provided: click and download MySQL
+ 2. Follow the installation process. The things to take note of are:
+ 
+ - Select 'Typical Install'
+ - When the Config Wizard pops up: select 'Standard Configuration'
+ - For credentials, the username is: 'root' and create a password. Password will be used later when registering/signing up for osTicket: Example password: 'Password1'
+ - Select 'Execute' & 'Finish'
+
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br> 
+
+<h4>Item 8: Configure IIS as Admin & Register PHP</h4>
+
+
 
 
 
