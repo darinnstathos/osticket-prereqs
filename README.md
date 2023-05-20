@@ -61,7 +61,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <br>
 
-<h4>Logging into our Virutal Machine</h4>
+<h4>Logging into our Virtual Machine</h4>
 
 <p>We want to access the virtual machine we just created so we can install osTicket onto our virtual machine.</p>
 
