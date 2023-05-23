@@ -240,14 +240,17 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 <p>We have downloaded PHP onto our machine, but it's not in a position to where it can be recognized by osTicket yet. Registering PHP on PHP Manager before installing osTicket is necessary to ensure that the correct PHP version and configuration are set up for osTicket. By registering PHP, PHP Manager can identify and manage the installed PHP version, extensions, and settings specific to osTicket's requirements. This ensures compatibility, performance, and proper functioning of osTicket within the IIS (Internet Information Services) environment, allowing the ticketing system to operate smoothly.</p>
 
 1. Navigate to search bar on Windows desktop > Type 'IIS' > Right-click to 'Run As Administrator'
+
+<img src="https://i.imgur.com/kLaIrv1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 2. Double-click PHP manager > select 'Register New PHP Version'
 3. Click the three dots icon to browse > click 'PHP' folder > PHP-CGI > select 'OK'
 4. Select the VM were using within IIS > click 'Restart' (This is so the system can restart and reset with PHP now added. It is good practice to do so)
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<img src="https://i.imgur.com/orQgCAq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/YrwPeOw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/KGO4bqS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
