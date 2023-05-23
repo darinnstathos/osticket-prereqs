@@ -205,8 +205,8 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 1. Use the link provided: click and download VC Redist
 2. Open ‘File Explorer’ > Downloads > double click to open > Agree & Install
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sUGJJSE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <br>
 
