@@ -180,7 +180,8 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
  
  **Side note: If this comes up when downloading, select 'Keep' and 'Keep All'
  
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ieditVE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hoYlaPg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
  2. Naviagte to 'Downloads' in File Explorer > Right-click: 'Extract All'
  3. When it wants a destination to extract the contents in, we want to unzip into C:PHP folder: Click 'Browse' > 
