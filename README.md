@@ -92,8 +92,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>IIS (Internet Information Services) is a web server software developed by Microsoft for Windows operating systems. It allows you to host and serve websites, web applications, and other web services on your Windows-based computer. IIS provides the infrastructure and tools necessary to handle HTTP requests, manage web content, and support various web technologies, making it easier to publish and manage websites on Windows servers. We need to set up IIS because osTicket runs out of a website and thus requires extra support.</p>
 
 1. Within our Windows Virtual Machinne, right-click the 'Start Menu" (Windows icon on desktop) > select 'Run' > type 'Control' for Control Panel
-2. Select 'Programs' > Select 'Turn Windows Features On & Off' > Enable [X] Internet Information Services
-3. Expand [+] for 'World Wide Web Services' > Expand [+] for 'Application Developer' > [X] check 'CGI' 
+
+<img src="https://i.imgur.com/9VWSZ5X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+2. Select 'Programs' > Select 'Turn Windows Features On & Off'
+
+<img src="https://i.imgur.com/VBDY12c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+3. Enable [X] Internet Information Services > Expand [+] for 'World Wide Web Services' > Expand [+] for 'Application Developer' > [X] check 'CGI' 
+
+<img src="https://i.imgur.com/LBwOY9T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <Strong>Why do we need CGI and what is PHP?</strong>
 
