@@ -42,9 +42,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h4>Creating the Resource Group and Microsoft VM</h4>
 
 1. Navigate to Microsoft Azure > Navigate to 'Resource Groups' via the quick access icon or search bar > select 'Create Resource Group'
-3. We'll name our Resource Group: "RG-osTicket". There is nothing left for us to alter so select 'Review + Create'
-4. Navigate to 'Virtual Machines' within Azure via quick access icon or search bar > select 'Create Virtual Machine'
-5. Within the Virtual Machine portal, we will make the following changes:
+2. We'll name our Resource Group: "RG-osTicket". There is nothing left for us to alter so select 'Review + Create'
+
+
+<img src="https://i.imgur.com/a5aZTph.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+3. Navigate to 'Virtual Machines' within Azure via quick access icon or search bar > select 'Create Virtual Machine'
+4. Within the Virtual Machine portal, we will make the following changes:
 
 - Pick the resource group we just created: RG-osTicket
 - Name of Virtual Machine: VM-osTicket
