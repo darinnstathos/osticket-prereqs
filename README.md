@@ -151,8 +151,8 @@ By leveraging the Rewrite Module, osTicket can achieve URL structures that are e
 2. Navigate to Windows File Explorer > Downloads: it should appear there
 3. Open the Application > Agree to it > Install & Close
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jaKOscc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HH47Fxf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
