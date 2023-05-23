@@ -187,8 +187,10 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
  3. When it wants a destination to extract the contents in, we want to unzip into C:PHP folder: Click 'Browse' > 
  4. This PC > C: Drive > select 'PHP folder > 'Extract"
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Z4rqX8k.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/T87zDyA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/yfnRe3G.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/MEIVt8R.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
