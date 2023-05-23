@@ -113,10 +113,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <strong>Why type 127.0.0.1?</Strong>
 <p>Typing '127.0.0.1' allows us to access the loopback address on our local machine. The loopback address refers to the computer itself, allowing you to access the web server or any other services running on your own machine.</p>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3LQN7NK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <br>
 
