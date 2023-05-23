@@ -130,8 +130,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 2. Navigate to Windows File Explorer > Downloads: it should appear there 
 3. Open and install PHP manager with all default settings. Select: ‘I Agree’
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SysOwcw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PsEKT5c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
