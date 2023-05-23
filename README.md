@@ -163,8 +163,8 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 1. Open 'File Explorer' > select 'My PC' > Click 'C: Drive'
 2. Right click inside of the C:Drive > 'New' > 'Folder' > name the folder 'PHP'
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/j6OCAhm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uVpTK8b.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br> 
 
