@@ -70,13 +70,16 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>We want to access the virtual machine we just created so we can install osTicket onto our virtual machine.</p>
 
 1. We need to copy the Public IP Address of VM-osTicket: Navigate to Azure > ‘Virtual Machines’ > VM-osTicket > Overview: Copy Public IP address to clipboard
+
+<img src="https://i.imgur.com/nT3i4AO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 2. WindowsOS vs MacOS:
 
 - If you’re using Windows, click the ‘Start’ menu (Windows Icon) on desktop > search bar > Remote Desktop Connection
 - This is done from the perspective of MacOS, so open/download application: Microsoft Remote Desktop > Add PC > paste Public IP Address > input ‘username/password’ from when we created the VM. (example: darinstathos)
  
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/89ySFdY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/K956piz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br> 
 
