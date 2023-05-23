@@ -226,8 +226,10 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
  - For credentials, the username is: 'root' and create a password. Password will be used later when registering/signing up for osTicket: Example password: 'Password1'
  - Select 'Execute' & 'Finish'
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/wvZaIKo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HPdwC1E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PIdSQ84.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 
 <br> 
 
