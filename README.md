@@ -314,24 +314,24 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 1. Navigate to 'File Explorer' > 'This PC' > C:Drive > 'inetpub' > 'wwwroot' > osTicket > 'include' folder
 2. Scroll down within the 'include' folder until you find “ost-sampleconfig.php”
 3. Rename to ost-config (erasing the word “sample”): Right-click the file name > Rename 
+4. Right-click 'ost-config' file > Select 'Properties' > 'Security' > 'Advanced'
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uTtRUsW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sQPFOGK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/rKaWCh1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
 <p>osTicket needs to interact with this file in order to run. We don’t know what user its going to use, so we’re going to set the file permissions so anyone can access it so that there are no issues in trying to deploy/use osTicket due to user authentication and permissions:</p>
 
-4. Right-click 'ost-config' file > Select 'Properties' > 'Security' > 'Advanced'
+
 5. Select 'Disable inheritance' (so it stops inheriting permissions from the parent) > Select 'Remove all permissions'
 6. To add permissions: select 'Add' > 'Select a principal' > type 'Everyone' & 'Check Names'> select 'Full Control' > 'Apply' & 'OK'
 
 <p>Now everyone has permissions to ost-config</p>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uNDvlF4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sOhjlmI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 <h4>Continue Setting Up osTicket in the Browser</h4>
