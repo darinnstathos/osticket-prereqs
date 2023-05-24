@@ -270,16 +270,19 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 - File Explorer 2: My PC > C: Drive > Inetpub > wwwroot
 
 3. Drag and drop 'Upload' folder in wwwroot
+
+<img src="https://i.imgur.com/1A7aCxE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 4. Rename ‘Upload’ folder to ‘osTicket’: Right-click ‘Upload’ Folder > Rename > Rename to “osTicket”
 5. Go back to IIS to now load osTicket website: search 'IIS' on Windows search bar > Right-click to 'Run as Administrator' > click 'VM-osTicket' > select 'Restart'
 6. Inside of IIS: Navigate to 'VM-osTicket' > Expand [+] Sites > Expand [+] Default Web Site > Select "osTicket" > Select “Browse *:80” on the right
 
 <p> We can see that the osTicket website has loaded! However, there are some items signaled by red X's. We're going to enable some extensions.</p>
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Zhqpash.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/E6GeadQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qOrzIx8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/atfwtLI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
