@@ -303,7 +303,7 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 
 <img src="https://i.imgur.com/ROrUgIQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/GkP6IOy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/vyf3KW5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/5tf3lvY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
 <br>
 
