@@ -338,6 +338,11 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 
 1. In the browser, select "Continue" 
 2. Fill out the fields: Examples below: (darin@helper.com is a fake email)
+
+<img src="https://i.imgur.com/dIsN6z0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/WbSkeJu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+
 3. Install Heidi SQL: [LINKKKKKKK]
 
 <strong>What is Heidi SQL?</strong>
@@ -349,9 +354,10 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 - The username: 'root', password: 'Password1' (We created these when we downloaded mySQL server) > select 'Open'
 - Now we have our connection to mySQL server: > Create a new database called “osTicket”
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/tubw6NS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ISGZCkG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/P3S9Kg2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8c4exJp.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 4. We can now finish setting up osTicket in the browser:
 
