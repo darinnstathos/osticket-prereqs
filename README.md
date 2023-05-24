@@ -280,7 +280,7 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 <p> We can see that the osTicket website has loaded! However, there are some items signaled by red X's. We're going to enable some extensions.</p>
 
 <img src="https://i.imgur.com/Zhqpash.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/E6GeadQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/82Qgidu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/qOrzIx8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="https://i.imgur.com/atfwtLI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
