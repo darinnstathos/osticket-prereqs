@@ -365,7 +365,8 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 - Database name: 'osTicket' (This was just created in HeidiSQL)
 - Select 'Install Now"
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/2NrbTee.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/dkzwJNJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
