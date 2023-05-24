@@ -384,9 +384,9 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 - select 'Everyone' > select 'Edit'
 - Uncheck [ ] 'Full Control', 'Modify', 'Read & Execute' so that we only have 'Read' remains
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EDdHj47.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/TTXCkyV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/63zk6RH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <br>
 
