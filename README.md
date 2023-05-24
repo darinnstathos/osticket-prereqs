@@ -404,8 +404,8 @@ There are two URL's:
 
 Congrats! We've successfully installed osTicket!
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bVUEpnh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/w3Fvc61.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 
 
