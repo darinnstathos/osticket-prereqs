@@ -289,6 +289,9 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 <h4>Enabling IIS Extensions</h4>
 
 1. Navigate back to 'IIS' > Select "VM-osTicket" > Expand [+] 'Sites' > Expand [+] 'Default Web Site' > Select 'osTicket' > select 'PHP Manager' 
+
+<img src="https://i.imgur.com/y1sMF1T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 2. Select 'Enable or disable an extension'
 3. Enable the following extensions:
 
@@ -298,9 +301,9 @@ osTicket is a popular open-source ticketing system that helps organizations effi
 
 4. Go back to osTicket in browser > Refresh > notice how some of the red X’s turned green
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ROrUgIQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/GkP6IOy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/vyf3KW5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  
 <br>
 
