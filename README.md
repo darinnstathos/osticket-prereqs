@@ -33,7 +33,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 7: Install MySQL Server
 - Item 8: Configure inside of IIS: Register PHP
 
-<h2>All Installation Files</h2>
+<h2>All Installation Files Included</h2>
 
  Installation files: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
  
