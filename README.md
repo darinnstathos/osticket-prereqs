@@ -123,7 +123,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <br>
 4. We can check that everything is working correctly by typing '127.0.0.1' into the search bar on Microsoft Edge within the VM. We can see that the default Internet Information Services webpage loads. 
 
-</br>
+<br>
 
 <strong>Why type 127.0.0.1?</Strong>
 
