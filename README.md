@@ -321,6 +321,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 <br>
 <img src="https://i.imgur.com/1A7aCxE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br>
+
 4. Rename ‘Upload’ folder to ‘osTicket’: Right-click ‘Upload’ Folder > 'Rename' > Rename to “osTicket”
 5. Go back to IIS to now load osTicket website: search 'IIS' on Windows search bar > Right-click to 'Run as Administrator' > click 'VM-osTicket' > select 'Restart'
 6. Inside of IIS: Navigate to 'VM-osTicket' > Expand [+] Sites > Expand [+] Default Web Site > Select 'osTicket' > Select “Browse *:80” on the right
