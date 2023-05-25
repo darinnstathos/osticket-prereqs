@@ -51,13 +51,13 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 3. Navigate to 'Virtual Machines' within Azure via quick access icon or search bar > select 'Create Virtual Machine'
 4. Within the Virtual Machine portal, we will make the following changes:
 
-- Pick the resource group we just created: RG-osTicket
-- Name of Virtual Machine: VM-osTicket
-- Image: Windows 10 Pro, version 22H2 - x64 Gen2
+- Pick the resource group we just created: 'RG-osTicket'
+- Name of Virtual Machine: 'VM-osTicket'
+- Image: 'Windows 10 Pro, version 22H2 - x64 Gen2'
 - Size: 2-4 vcpus (4vcpu is okay since we’re only using 1 virtual machine and thus is free to utilize all power)
 - Username/password of choice: Example username: darinstathos (Remember this username/password for later when logging into VM)
 - Check Licensing Box: [X] ‘I confirm I have an eligible Windows 10/11 license with multi-tenant hosting rights.’
-- Select 'Next: Disks >', 'Next: Networking >': Beside Virtual Network: We don't have a virtual network yet so Azure automatically created on for us 
+- Select 'Next: Disks >', 'Next: Networking >': Beside Virtual Network: We don't have a virtual network yet so Azure automatically created on for us: '(new)VM-osTicket-vnet'
 - Select 'Review + Create'
 
 
@@ -73,14 +73,14 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <p>We want to access the virtual machine we just created so we can install osTicket onto our virtual machine.</p>
 
-1. We need to copy the Public IP Address of VM-osTicket: Navigate to Azure > ‘Virtual Machines’ > VM-osTicket > Overview: Copy Public IP address to clipboard
+1. We need to copy the Public IP Address of VM-osTicket: Navigate to Azure > ‘Virtual Machines’ > VM-osTicket > Overview: Copy Public IP address to clipboard (Example: 20.14.93.5)
 
 <img src="https://i.imgur.com/nT3i4AO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 2. WindowsOS vs MacOS:
 
-- If you’re using Windows, click the ‘Start’ menu (Windows Icon) on desktop > search bar > Remote Desktop Connection
-- This is done from the perspective of MacOS, so open/download application: Microsoft Remote Desktop > Add PC > paste Public IP Address > input ‘username/password’ from when we created the VM. (example: darinstathos)
+- If you’re using Windows, click the ‘Start’ menu (Windows Icon) on desktop > search bar > 'Remote Desktop Connection'
+- This is done from the perspective of MacOS, so open/download application: 'Microsoft Remote Desktop' > 'Add PC' > paste Public IP Address > input ‘username/password’ from when we created the VM. (example: darinstathos)
  
 <br>
  
@@ -166,7 +166,7 @@ By leveraging the Rewrite Module, osTicket can achieve URL structures that are e
 
 1. Use the link provided: click and download the Rewrite Module
 2. Navigate to Windows File Explorer > Downloads: it should appear there
-3. Open the Application > Agree to it > Install & Close
+3. Open the Application > Agree to it > 'Install' & 'Close'
 
 
 <br>
@@ -182,7 +182,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 <br>
 
 1. Open 'File Explorer' > select 'My PC' > Click 'C: Drive'
-2. Right click inside of the C:Drive > 'New' > 'Folder' > name the folder 'PHP'
+2. Right-click inside of the C:Drive > 'New' > 'Folder' > name the folder 'PHP'
 
 <br>
 
@@ -212,7 +212,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
  2. Naviagte to 'Downloads' in File Explorer > Right-click: 'Extract All'
  3. When it wants a destination to extract the contents in, we want to unzip into C:PHP folder: Click 'Browse' > 
- 4. This PC > C: Drive > select 'PHP folder > 'Extract"
+ 4. Press 'This PC' > 'C: Drive' > select 'PHP folder > 'Extract'
 
 
 <br>
@@ -235,7 +235,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 <br>
 
 1. Use the link provided: click and download VC Redist
-2. Open ‘File Explorer’ > Downloads > double click to open > Agree & Install
+2. Open ‘File Explorer’ > Downloads > double-click to open > 'Agree' & 'Install'
 
 <br>
 
@@ -259,7 +259,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
  
  - Select 'Typical Install'
  - When the Config Wizard pops up: select 'Standard Configuration'
- - For credentials, the username is: 'root' and create a password. Password will be used later when registering/signing up for osTicket: Example password: 'Password1'
+ - For credentials, the username is: 'root' and create a password. Password will be used later when registering/signing up for osTicket (Example password: 'Password1')
  - Select 'Execute' & 'Finish'
 
 <br>
@@ -288,7 +288,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 <br>
 
 2. Double-click PHP manager > select 'Register New PHP Version'
-3. Click the three dots icon to browse > click 'PHP' folder > PHP-CGI > select 'OK'
+3. Click the three dots icon to browse > click 'PHP' folder > 'PHP-CGI' > select 'OK'
 4. Select the VM were using within IIS > click 'Restart' (This is so the system can restart and reset with PHP now added. It is good practice to do so)
 
 <br>
@@ -321,9 +321,9 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 <br>
 <img src="https://i.imgur.com/1A7aCxE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br>
-4. Rename ‘Upload’ folder to ‘osTicket’: Right-click ‘Upload’ Folder > Rename > Rename to “osTicket”
+4. Rename ‘Upload’ folder to ‘osTicket’: Right-click ‘Upload’ Folder > 'Rename' > Rename to “osTicket”
 5. Go back to IIS to now load osTicket website: search 'IIS' on Windows search bar > Right-click to 'Run as Administrator' > click 'VM-osTicket' > select 'Restart'
-6. Inside of IIS: Navigate to 'VM-osTicket' > Expand [+] Sites > Expand [+] Default Web Site > Select "osTicket" > Select “Browse *:80” on the right
+6. Inside of IIS: Navigate to 'VM-osTicket' > Expand [+] Sites > Expand [+] Default Web Site > Select 'osTicket' > Select “Browse *:80” on the right
 
 <p> We can see that the osTicket website has loaded! However, there are some items signaled by red X's. We're going to enable some extensions.</p>
 
@@ -338,7 +338,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 <h4>🔵 Enabling IIS Extensions:</h4>
 
-1. Navigate back to 'IIS' > Select "VM-osTicket" > Expand [+] 'Sites' > Expand [+] 'Default Web Site' > Select 'osTicket' > select 'PHP Manager' 
+1. Navigate back to 'IIS' > Select 'VM-osTicket' > Expand [+] 'Sites' > Expand [+] 'Default Web Site' > Select 'osTicket' > select 'PHP Manager' 
 
 <br>
 
@@ -363,13 +363,13 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
  
 <br>
 
-<h4>🔵 Rename: ost-config.php & Changing Access Permissions</h4>
+<h4>🔵 Rename ost-config.php & Changing Access Permissions:</h4>
 
-<p>Our goal is to change "C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php" into "C:\inetpub\wwwroot\osTicket\include\ost-config.php", essentially taking out the word "Sample"</p>
+<p>Our goal is to change "C:\inetpub\wwwroot\osTicket\include\<strong>ost-sampleconfig.php</strong>" into "C:\inetpub\wwwroot\osTicket\include\<strong>ost-config.php</strong>", essentially taking out the word <strong>"Sample"</strong></p>
 
-1. Navigate to 'File Explorer' > 'This PC' > C:Drive > 'inetpub' > 'wwwroot' > osTicket > 'include' folder
-2. Scroll down within the 'include' folder until you find “ost-sampleconfig.php”
-3. Rename to ost-config (erasing the word “sample”): Right-click the file name > Rename 
+1. Navigate to 'File Explorer' > 'This PC' > C:Drive > 'inetpub' > 'wwwroot' > osTicket > 'Include' folder
+2. Scroll down within the 'Include' folder until you find “ost-sampleconfig.php”
+3. Rename to ost-config (erasing the word “sample”): Right-click the file name > 'Rename' 
 4. Right-click 'ost-config' file > Select 'Properties' > 'Security' > 'Advanced'
 
 <br>
@@ -380,7 +380,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 <br>
 
-<p>osTicket needs to interact with this file in order to run. We don’t know what user its going to use, so we’re going to set the file permissions so anyone can access it so that there are no issues in trying to deploy/use osTicket due to user authentication and permissions:</p>
+<p>osTicket needs to interact with this file in order to run. We don’t know what user it's going to use, so we’re going to set the file permissions so that anyone can access it. This is so there are no issues in trying to deploy/use osTicket due to user authentication and permissions:</p>
 
 <br>
 
@@ -432,9 +432,9 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 4. We can now finish setting up osTicket in the browser:
 
-- Username: root, Password: 'Password1' (for example purposes)
+- Username: 'root', Password: 'Password1' (for example purposes)
 - Database name: 'osTicket' (This was just created in HeidiSQL)
-- Select 'Install Now"
+- Select 'Install Now'
 
 <br>
 
@@ -447,7 +447,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 1. We need to delete the 'Set Up' folder in C:\inetpub\wwwroot\osTicket\setup
 
-- Navigate to 'File Explorer' > 'My PC' > C: Drive > 'inetpub' > 'wwwroot' > 'osTicket' > 'Set Up' folder > Right-click to Delete 
+- Navigate to 'File Explorer' > 'My PC' > C: Drive > 'inetpub' > 'wwwroot' > 'osTicket' > 'Set Up' folder > Right-click to 'Delete' 
 
 2. Set Permissions to “Read Only" within C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
@@ -455,7 +455,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 - Right-click 'ost-config' > select 'Properties'
 - select 'Security' at the top > select 'Advanced'
 - select 'Everyone' > select 'Edit'
-- Uncheck [ ] 'Full Control', 'Modify', 'Read & Execute' so that we only have 'Read' remains
+- Uncheck [ ] 'Full Control', 'Modify', 'Read & Execute' so that only 'Read' remains
 
 <br>
 
@@ -475,7 +475,7 @@ There are two URL's:
 1. Click the Admin Login link
 2. Input the username/email & password created when signing up for osTicket earlier:
 
-- Example: username: darin_admin
+- Example username: darin_admin
 
 Congrats! We've successfully installed osTicket!
 
