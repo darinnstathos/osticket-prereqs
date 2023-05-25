@@ -106,12 +106,17 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 2. Select 'Programs' > Select 'Turn Windows Features On & Off'
 <br>
 <img src="https://i.imgur.com/VBDY12c.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br>
-3. Enable [X] Internet Information Services > Expand [+] for 'World Wide Web Services' > Expand [+] for 'Application Developer' > [X] check 'CGI' 
-<br>
-<img src="https://i.imgur.com/LBwOY9T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br>
 
+3. Enable [X] Internet Information Services > Expand [+] for 'World Wide Web Services' > Expand [+] for 'Application Developer' > [X] check 'CGI'
+
+
+<br>
+
+<img src="https://i.imgur.com/LBwOY9T.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
+<br>
 <Strong>Why do we need CGI and what is PHP?</strong>
 
 <p>This is because CGI allows us to install PHP Manager later and PHP is needed for osTicket. CGI (Common Gateway Interface) needs to be enabled on IIS (Internet Information Services) in order to install osTicket because osTicket relies on CGI scripts to process and handle certain web requests. CGI is a standard protocol that allows web servers like IIS to interact with external programs or scripts to generate dynamic content. PHP is a server-side scripting language that is widely used for web development. It is needed to run osTicket because osTicket is written in PHP and relies on PHP for its functionality. PHP allows osTicket to dynamically generate web pages, process form submissions, interact with databases, and perform various other tasks necessary for its ticketing system. It provides the underlying scripting capabilities that osTicket relies on to handle user interactions, store ticket data, and generate the appropriate responses.</p>
@@ -119,6 +124,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 4. We can check that everything is working correctly by typing '127.0.0.1' into the search bar on Microsoft Edge within the VM. We can see that the default Internet Information Services webpage loads. 
 
 <strong>Why type 127.0.0.1?</Strong>
+
 <p>Typing '127.0.0.1' allows us to access the loopback address on our local machine. The loopback address refers to the computer itself, allowing you to access the web server or any other services running on your own machine.</p>
 <br>
 <img src="https://i.imgur.com/3LQN7NK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -194,7 +200,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
  1. Use the link provided: click and download the PHP 7.3.8 [Leave all the files as they are, just download it straight away]
  
- **Side note: If this comes up when downloading, select 'Keep' and 'Keep All'
+ **Side note: If this comes up when downloading, select 'Keep' and 'Keep Anyway'
  
 <br>
 
