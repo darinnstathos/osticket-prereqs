@@ -32,6 +32,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 6: Download & Install C++ Redistributable
 - Item 7: Install MySQL Server
 - Item 8: Configure inside of IIS: Register PHP
+
+<h2>All Installation Files<h2>
+
+ Installation files: https://drive.google.com/drive/u/1/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6
  
 <h2>Installation Steps</h2>
 
@@ -136,7 +140,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h4>🔵 Item 2: Install PHP Manager for IIS:</h4>
 
-[LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
+Link to install PHP Manager for IIS: https://drive.google.com/file/d/1RHsNd4eWIOwaNpj3JW4vzzmzNUH86wY_/view?usp=share_link
 
 <Strong>What is PHP Manager and why is it needed for IIS/Installing osTicket later?</strong>
 
@@ -153,7 +157,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h4>🔵 Item 3: Download & Install Rewrite Module:</h4>
 
-[LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
+Link to install Rewrite Module: https://drive.google.com/file/d/1tIK9GZBKj1JyUP87eewxgdNqn9pZmVmY/view?usp=share_link
 
 <Strong>What is a Rewrite Module and why is it needed for osTicket?</strong>
 
@@ -193,7 +197,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 <h4>🔵 Item 5: Download PHP 7.3.8 and Unzip Contents into C:\PHP</h4> 
 
-[LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
+Link to download PHPn 7.3.8: https://drive.google.com/file/d/1snNMtLdCOpMtkCyD4mvl9yOOmvVIp9fP/view?usp=share_link
  
  <Strong>Why is PHP needed for osTicket again?</strong>
  
@@ -226,7 +230,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 <h4>🔵 Item 6: Download & Install C++ Restributable:</h4>
  
- [LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
+Link to install C++ Restributable: https://drive.google.com/file/d/1s1OsGF3-ioO0_9LYizPRiVuIkb3lFJgH/view?usp=share_link
  
  <Strong>Why do we need to install Microsoft C++ Restributable in order to use osTicket?</strong>
  
@@ -246,7 +250,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 <h4>🔵 Item 7: Install MySQL Server</h4>
 
- [LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
+Link to download MySQL: https://drive.google.com/file/d/1_OWh9p7VQLcrB0q_V7qT8yHl0xo5gv7z/view?usp=share_link
  
  <strong>What is MySQL and why is it needed to install osTicket?</strong>
  
@@ -301,7 +305,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 <h3>🟢 Step 3: Install osTicket</h3>
 
-[LINK XXX -- MAKE OWN FILE WITH DOWNLOADS]
+Link to download osTicket: https://drive.google.com/file/d/1VeVXKlzHDRjeaVUL99ptq7qYbrbXdFxJ/view?usp=share_link
 
 <Strong>What is osTicket and why is it useful?</strong>
 
@@ -409,7 +413,7 @@ We want to create a PHP folder on the root of the C: Drive. This is because late
 
 <br>
 
-3. Install Heidi SQL: [LINKKKKKKK]
+3. Install Heidi SQL: https://docs.google.com/document/d/1WovrX2DaS9xkfaSr4LXyB4YnnWpXIgPCMMbbfgHmGVw/edit
 
 <strong>What is Heidi SQL?</strong>
 
